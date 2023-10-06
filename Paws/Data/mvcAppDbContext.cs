@@ -11,7 +11,9 @@ namespace Paws.Data
         {
         }
 
-        public DbSet<Pets> Pets { get; set; }
+        public DbSet<Volunteer> Volunteers { get; set; }
+        public DbSet<Pet> Pets { get; set; }
+
     }
 }
 
