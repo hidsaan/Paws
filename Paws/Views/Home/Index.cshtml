@@ -6,14 +6,107 @@
 
 <style>
     body {
-    background-image: url("./catbackground.jpg");
+    background-image: url("./backgpaws.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     }
+
+    .titlecat {
+        font-size: 1.5em;
+    }
+
+    .cardcat {
+        font-size: 1.3em;
+    }
 </style>
 
-<div class="text-center">
-    <h1 class="display-4">Welcome to the world of Pets!</h1>
+
+<div class="container-fluid">
+    <div class=" container card edges mb-3">
+        <div class="row g-0">
+            <div class="col-md-4">
+                <img src="/newcat.jpg" class="img-fluid rounded-start my-2" alt="daisy">
+            </div>
+            <div class="col-md-8">
+                <div class="card-body">
+
+                    <h5 class="card-title titlecat">Hi, Daisy Needs Your Attention!</h5>
+                    <p class="cardcat">Hello dear visitor! My name is Daisy. I am a domestic ginger cat and I need your attention. I was 6 months old when my old owner threw me into trash because he could'nt afford me. I was then rescued and now I am going through recovery. Your money can help me recover and find me a new home where I'd be loved. If you can, <b>please sign up as a volunteer,</b> I'll forever be grateful!</p>
+                    <a class="btn btn-success" asp-controller="Pages" asp-action="Signup">Sign Up</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-sm-6 mb-3 mb-sm-0 ">
+            <div class="card edges" style="background-color: white">
+                <div class="card-body text-center">
+                    <p class="card-text">Know how you can help animals and make world better place for the creatures roaming the earth with us. Explore what you can do on Paws and take steps with us.</p>
+                    <a href="#" class="btn btn-success">Explore</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-6 ">
+            <div class="card edges" style="background-color: white">
+                <div class="card-body text-center">
+                    <p class="card-text">Want to get yourself a new friend? At Paws you can buy, adopt and donate. Take a step forward and get to know all the little buddies we have for you to take home. Here at Paws, you can also keep your pet up for adoption if you think you can't provide them a home they need.' </p>
+                    <a href="#" class="btn btn-success">Explore</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row g-4 mt-3 text-center">
+        <div class="col-md-2">
+            <div class="card" style="width: 12rem;">
+                <img src="~/catcard.jpg" width="25vw" height="100vh" class="card-img-top" alt="cat">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Cats</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card" style="width: 12rem;">
+                <img src="~/doggo.jpg" width="25vw" height="100vh" class="card-img-top" alt="dog">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Dogs</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card" style="width: 12rem;">
+                <img src="~/parrots.jpg" width="25vw" height="100vh" class="card-img-top" alt="birds">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Birds</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card" style="width: 12rem;">
+                <img src="~/rabbit2.jpg" width="25vw" height="100vh" class="card-img-top" alt="rabbits">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Rabbits</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card" style="width: 12rem;">
+                <img src="~/goldfish.jpg" width="25vw" height="100vh" class="card-img-top" alt="fish">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Fish</h5>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-2">
+            <div class="card" style="width: 12rem;">
+                <img src="~/monkey.jpg" width="25vw" height="100vh" class="card-img-top" alt="others">
+                <div class="card-body text-center">
+                    <h5 class="card-title">Others</h5>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

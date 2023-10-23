@@ -1,0 +1,60 @@
+﻿@{
+}
+
+<br />
+
+<style>
+    body {
+        background-image: url("./backgpaws.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+</style>
+
+<div class="container-fluid">
+    <div class="w-75 rounded-3 p-4 bg">
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Name</th>
+                    <th>Species</th>
+                    <th>Breed</th>
+                    <th>Age</th>
+                    <th>Description</th>
+                    <th>Action</th>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var pet in Model)
+                {
+                    <tr>
+                        <td>@pet.Id</td>
+                        <td>@pet.Name</td>
+                        <td>@pet.Species</td>
+                        <td>@pet.Breed</td>
+                        <td>@pet.Age</td>
+                        <td>@pet.Description</td>
+
+                        <td class="text-center row">
+                            <a class="btn btn-success col" asp-controller="Pets"
+                               asp-action="Edit" asp-route-id="@pet.Id">
+                                <i class="fa fa-solid fa-pen fa-sm"></i>
+                            </a>
+
+                            <a class="btn btn-danger ms-1 col" asp-controller="Pets"
+                               asp-action="Delete" asp-route-id="@pet.Id">
+                                <i class="fa fa-solid fa-trash fa-sm"></i>
+                            </a>
+
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

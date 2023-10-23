@@ -1,19 +1,30 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Paws.Data;
+using Paws.Models;
+
+
+
+
 
 namespace Paws.Controllers
 {
     public class PagesController : Controller
     {
-        public IActionResult Login()
+        private readonly mvcAppDbContext _dbContext;
+
+        public PagesController(mvcAppDbContext dbContext)
+        {
+            _dbContext = dbContext;
+        }    
+
+        [HttpGet]
+        public IActionResult Reviews()
         {
             return View();
         }
 
-        public IActionResult Signup()
-        {
-            return View();
-        }
-        public IActionResult Reviews()
+        [HttpGet]
+        public IActionResult Blank()
         {
             return View();
         }

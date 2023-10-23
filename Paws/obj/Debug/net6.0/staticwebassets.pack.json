@@ -5,16 +5,40 @@
       "PackagePath": "staticwebassets\\Paws.bundle.scp.css"
     },
     {
+      "Id": "C:\\Users\\de\\Desktop\\Paws\\Paws\\wwwroot\\backgpaws.jpg",
+      "PackagePath": "staticwebassets\\backgpaws.jpg"
+    },
+    {
+      "Id": "C:\\Users\\de\\Desktop\\Paws\\Paws\\wwwroot\\cat.jpg",
+      "PackagePath": "staticwebassets\\cat.jpg"
+    },
+    {
       "Id": "C:\\Users\\de\\Desktop\\Paws\\Paws\\wwwroot\\catbackground.jpg",
       "PackagePath": "staticwebassets\\catbackground.jpg"
+    },
+    {
+      "Id": "C:\\Users\\de\\Desktop\\Paws\\Paws\\wwwroot\\catcard.jpg",
+      "PackagePath": "staticwebassets\\catcard.jpg"
+    },
+    {
+      "Id": "C:\\Users\\de\\Desktop\\Paws\\Paws\\wwwroot\\catto.jpg",
+      "PackagePath": "staticwebassets\\catto.jpg"
     },
     {
       "Id": "C:\\Users\\de\\Desktop\\Paws\\Paws\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
+      "Id": "C:\\Users\\de\\Desktop\\Paws\\Paws\\wwwroot\\doggo.jpg",
+      "PackagePath": "staticwebassets\\doggo.jpg"
+    },
+    {
       "Id": "C:\\Users\\de\\Desktop\\Paws\\Paws\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\de\\Desktop\\Paws\\Paws\\wwwroot\\goldfish.jpg",
+      "PackagePath": "staticwebassets\\goldfish.jpg"
     },
     {
       "Id": "C:\\Users\\de\\Desktop\\Paws\\Paws\\wwwroot\\js\\site.js",
@@ -247,6 +271,26 @@
     {
       "Id": "C:\\Users\\de\\Desktop\\Paws\\Paws\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\de\\Desktop\\Paws\\Paws\\wwwroot\\monkey.jpg",
+      "PackagePath": "staticwebassets\\monkey.jpg"
+    },
+    {
+      "Id": "C:\\Users\\de\\Desktop\\Paws\\Paws\\wwwroot\\newcat.jpg",
+      "PackagePath": "staticwebassets\\newcat.jpg"
+    },
+    {
+      "Id": "C:\\Users\\de\\Desktop\\Paws\\Paws\\wwwroot\\parrots.jpg",
+      "PackagePath": "staticwebassets\\parrots.jpg"
+    },
+    {
+      "Id": "C:\\Users\\de\\Desktop\\Paws\\Paws\\wwwroot\\rabbit2.jpg",
+      "PackagePath": "staticwebassets\\rabbit2.jpg"
+    },
+    {
+      "Id": "C:\\Users\\de\\Desktop\\Paws\\Paws\\wwwroot\\signupback.jpg",
+      "PackagePath": "staticwebassets\\signupback.jpg"
     },
     {
       "Id": "obj\\Debug\\net6.0\\staticwebassets\\msbuild.Paws.Microsoft.AspNetCore.StaticWebAssets.props",

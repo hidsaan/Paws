@@ -1,0 +1,41 @@
+﻿@model Paws.Models.LoginUser
+
+@{
+}
+
+<style>
+    body {
+        background-image: url("./backgpaws.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+</style>
+
+<div class="container-fluid">
+    <div class="w-50 rounded-3 p-4 bg">
+        <p id="Register" class="text-center">Login:</p>
+
+        <form id="myForm" method="post">
+
+            <div class="mt-2 col">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" asp-for="Email" id="email" required>
+            </div>
+
+            <div class="col mt-3">
+                <label for="inputPassword51" class="form-label">Password</label>
+                <input type="password" id="inputPassword51" class="form-control" asp-for="Password" aria-labelledby="passwordHelpBlock" required>
+            </div>
+
+            <div class="text-center">
+                <button type="submit" value="Submit" class="btn btn-success mt-3">Submit</button>
+            </div>
+
+        </form>
+        <div class="text-center">
+            <p class="loginlink">New here? <a asp-controller="Account" asp-action="Signup">Signup</a> </p>
+        </div>
+    </div>
+</div>

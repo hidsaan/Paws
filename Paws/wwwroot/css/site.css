@@ -16,3 +16,46 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+.logo {
+    background-color: white;
+    border-radius: 10px;
+}
+
+.name a {
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    color: #00992B;
+}
+
+#Register {
+    color: #00992B;
+    font-size: 2em;
+}
+
+.loginlink {
+    color: darkseagreen;
+}
+
+.loginlink a {
+    color: inherit;
+    text-decoration: underline;
+}
+
+].loginlink a:hover {
+    color: #00992B;
+}
+
+.bg {
+    /*         background-color: white;
+ */ box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.5);
+    margin: auto;
+}
+
+.edges {
+    border-radius: 9px;
+}
+
+.foot {
+    border-radius: 10px;
+}

@@ -10,9 +10,8 @@ namespace Paws.Data
             : base(options)
         {
         }
-
-        public DbSet<Volunteer> Volunteers { get; set; }
         public DbSet<Pet> Pets { get; set; }
+
 
     }
 }

@@ -16,6 +16,18 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\de\Desktop\Paws\Paws
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/de/Desktop/Paws/Paws/Views/Account/AccessDenied.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxBY2Nlc3NEZW5pZWQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/de/Desktop/Paws/Paws/Views/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxMb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/de/Desktop/Paws/Paws/Views/Account/Signup.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWNjb3VudFxTaWdudXAuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/de/Desktop/Paws/Paws/Views/Home/About.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxBYm91dC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -24,20 +36,28 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/de/Desktop/Paws/Paws/Views/Home/IndexPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleFBhZ2UuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/de/Desktop/Paws/Paws/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/de/Desktop/Paws/Paws/Views/Pages/Login.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcTG9naW4uY3NodG1s
+[C:/Users/de/Desktop/Paws/Paws/Views/Pages/Blank.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcQmxhbmsuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/de/Desktop/Paws/Paws/Views/Pages/Reviews.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcUmV2aWV3cy5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/de/Desktop/Paws/Paws/Views/Pages/Signup.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGFnZXNcU2lnbnVwLmNzaHRtbA==
+[C:/Users/de/Desktop/Paws/Paws/Views/Pets/Addnew.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xBZGRuZXcuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/de/Desktop/Paws/Paws/Views/Pets/Petlist.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGV0c1xQZXRsaXN0LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/de/Desktop/Paws/Paws/Views/Shared/Error.cshtml]

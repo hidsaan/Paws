@@ -1,0 +1,60 @@
+﻿@model Paws.Models.User
+
+@{
+}
+
+<style>
+    body {
+        background-image: url("./backgpaws.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
+
+</style>
+
+<div class="container-fluid">
+
+    <div class="w-75 rounded-3 p-4 bg">
+        <p id="Register" class="text-center">Sign-Up:</p>
+        <p class="loginlink">Already have an account? <a asp-controller="Account" asp-action="Login">Login</a> here.</p>
+
+        <form id="myForm" method="post">
+            <div class="mb-3 col">
+                <label for="exampleInputName1" class="form-label">Name</label>
+                <input type="text" class="form-control" asp-for="Name" id="exampleInputName1" placeholder="Your Name" aria-describedby="nameHelp">
+            </div>
+
+            <div class="mt-2 col">
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" asp-for="Email" id="email" required>
+            </div>
+
+            <div class="mt-2 col">
+                <label for="phone" class="form-label">Phone No.</label>
+                <input type="tel" class="form-control" asp-for="Phone" id="phone" required>
+            </div>
+
+            <div class="col mt-3">
+                <label for="inputPassword51" class="form-label">Password</label>
+                <input type="password" id="inputPassword51" class="form-control" asp-for="Password" aria-labelledby="passwordHelpBlock" required>
+                <div id="passwordHelpBlock" class="form-text">
+                    Your password must be 8-20 characters long, contain letters and numbers, and must not contain spaces or emoji.
+                </div>
+            </div>
+
+            <div class="form-check mt-3">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                    I accept the <a href="/Privacy">Privacy Policy</a>
+                </label>
+            </div>
+
+            <div class="text-center">
+                <button type="submit" value="Submit" class="btn btn-success mt-3">Submit</button>
+            </div>
+
+        </form>
+    </div>
+</div>
