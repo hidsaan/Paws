@@ -17,6 +17,7 @@ namespace Paws.Data
             // Seed Roles (User, Admin, etc)
             var adminRoleID = "040565cc-28b9-4ad6-8077-5ebfb041dff2";
             var userRoleID = "3558b312-fd7b-4384-be0a-1fbabdfb9ffb";
+            var superuserRoleID = "b86b0091-2731-49c7-b49a-2b07e2588286";
 
             var roles = new List<IdentityRole>
             {
@@ -34,6 +35,14 @@ namespace Paws.Data
                     NormalizedName = "USER",  
                     Id = userRoleID,
                     ConcurrencyStamp = userRoleID
+                },
+
+                new IdentityRole
+                {
+                    Name = "SuperUser",
+                    NormalizedName = "SUPERUSER",
+                    Id = superuserRoleID,
+                    ConcurrencyStamp = superuserRoleID
                 }
             };
 
@@ -51,7 +60,7 @@ namespace Paws.Data
                 Id = adminID
             };
 
-            adminUser.PasswordHash = new PasswordHasher<IdentityUser>().HashPassword(adminUser, "AdminUser11@");
+            adminUser.PasswordHash = new PasswordHasher<IdentityUser>().HashPassword(adminUser, "AdminUser@11");
 
             builder.Entity<IdentityUser>().HasData(adminUser);  
 
@@ -66,6 +75,11 @@ namespace Paws.Data
                 new IdentityUserRole<string>
                 {
                     RoleId = adminRoleID,
+                    UserId = adminID
+                },
+                new IdentityUserRole<string>
+                {
+                    RoleId = superuserRoleID,
                     UserId = adminID
                 }
             };

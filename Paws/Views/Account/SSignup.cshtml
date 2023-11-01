@@ -1,4 +1,4 @@
-﻿@model Paws.Models.User
+﻿@model Paws.Models.SuperUser
 
 @{
 }
@@ -17,7 +17,7 @@
 <div class="container-fluid">
 
     <div class="w-75 rounded-3 p-4 bg">
-        <p id="Register" class="text-center">Sign-Up:</p>
+        <p id="Register" class="text-center">Volunteer Sign-Up:</p>
         <p class="loginlink">Already have an account? <a asp-controller="Account" asp-action="Login">Login</a> here.</p>
 
         <form id="myForm" method="post">
@@ -47,7 +47,7 @@
             <div class="form-check mt-3">
                 <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
                 <label class="form-check-label" for="invalidCheck2">
-                    I accept the <a href="/Privacy">Privacy Policy</a>
+                    I have thoroughly read the <a asp-controller="Home" asp-action="VolunteerResponsibilities">Volunteer Responsibilities</a> and Im ready to follow all.
                 </label>
             </div>
 

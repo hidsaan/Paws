@@ -81,5 +81,52 @@ namespace Paws.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public IActionResult SSignup()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SSignup(SuperUser model)
+        {
+            var user = new IdentityUser { UserName = model.Name, Email = model.Email, PhoneNumber = model.Phone };
+
+            var result = await _userManager.CreateAsync(user, model.Password);
+
+            if (result.Succeeded)
+            {
+                var role = await _userManager.AddToRoleAsync(user, "User");
+
+                if (role.Succeeded)
+                {
+                    return RedirectToAction("IndexPage", "Home");
+
+                }
+            }
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult SLogin()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> SLogin(LoginSuperUser model)
+        {
+            var login = await _signInManager.PasswordSignInAsync(model.Email,
+                model.Password, false, false);
+
+
+            if (login != null && login.Succeeded)
+            {
+                return RedirectToAction("IndexPage", "Home");
+
+            }
+            return View();
+        }
     }
 }

@@ -52,6 +52,18 @@ body {
     margin: auto;
 }
 
+.contacticons a{
+    color:black;
+}
+
+.contacticons {
+    color:black;
+}
+
+.contacticons a:hover {
+    color: dimgrey;
+}
+
 .edges {
     border-radius: 9px;
 }

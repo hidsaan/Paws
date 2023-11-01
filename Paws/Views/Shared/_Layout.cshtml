@@ -14,13 +14,14 @@
     <header class="container-fluid">
         <div class="container-fluid mb-2 bg-white text-dark box-shadow logo">
             <div class="row">
-                <div class="col-md-4">
-                    contacts
+                <div class="col-md-4 mt-3 contacticons text-center">
+                    <a href="mailto:hidsaanmajeed427226@gmail.com?subject=web%20siesta"><i class="fa fa-solid fa-envelope contacticons"></i></a>
+                    <a href="tel:+918899184950"><i class="fa fa-solid fa-phone contacticons"></i></a>
                 </div>
                 <div class="text-center display-6 name col-md-4">
-                    <a asp-area="" asp-controller="Home" asp-action="Index" class="display-5">Paws</a>
+                    <a asp-area="" asp-controller="Home" asp-action="Index" >Paws</a>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 mt-3">
                     <form class="d-flex" role="search">
                         <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                         <button class="btn btn-outline-success" type="submit">Search</button>
@@ -28,28 +29,28 @@
                 </div>
             </div>
             
-            <nav class="navbar navbar-expand-sm navbar-toggleable-sm bg-white border-bottom mb-3">
+            <nav class="navbar navbar-expand-sm navbar-toggleable-sm bg-white border-bottom mb-3 text-center">
                 <div class="container-fluid rounded-4">
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                             aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="navbar-collapse collapse d-sm-inline-flex rounded-4 justify-content-between">
+                    <div class="navbar-collapse collapse d-sm-inline-flex rounded-4 justify-content-between text-center">
                         <ul class="navbar-nav flex-grow-1">
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Pages" asp-action="Login">Login</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Pages" asp-action="Signup">Sign Up</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="Signup">Sign Up</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Pages" asp-action="Reviews">Reviews</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="About">About Us</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" Sasp-action="About">About Us</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
@@ -70,13 +71,13 @@
         </div>
     </header>
     <div class="container-fluid">
-        <main role="main" class="pb-3">
+        <main role="main">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top container-fluid">
-        <div class="container-fluid foot" style="background-color:white">
+    <footer class=" container-fluid mt-2">
+        <div class="container-fluid foot box-shadow" style="background-color:white">
             &copy; 2023 - Paws - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>
     </footer>
